@@ -16,5 +16,5 @@ COPY . .
 # Expose port 3000 to the outside world
 EXPOSE 3000
 
-# Define the command to run your application using the start script from package.json
-CMD ["npm", "start"]
+# Define the command to run your application
+CMD ["node", "app.js"]
